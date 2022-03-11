@@ -1,0 +1,7 @@
+.lfrg-container {
+    max-width: 100%;
+    min-width: fit-content;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
