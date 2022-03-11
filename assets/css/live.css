@@ -1,0 +1,68 @@
+.live-main {
+    display: flex;
+    align-items: center;
+}
+
+.time-svg svg {
+    fill: var(--first-color);
+}
+
+.live-mscroll {
+    color: var(--box-2-color);
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    background: var(--first-color);
+}
+
+.live-mhsitem {
+    background: var(--box-2-color);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.active-todaybutton2 {
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+    border: 1px solid var(--first-color);
+}
+
+.active-todaybutton2:before {
+    width: 0;
+    height: 0;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+}
+
+.active-todaybutton2:before {
+    bottom: -6px;
+    border-top: 6px solid var(--first-color);
+}
+
+.active-todaybutton2:before {
+    content: "";
+    position: absolute;
+    margin-left: 28px;
+}
+
+.active-todaybutton2:after {
+    width: 0;
+    height: 0;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+}
+
+.active-todaybutton2:after {
+    bottom: -4px;
+    border-top: 6px solid var(--box-2-color);
+}
+
+.active-todaybutton2:after {
+    content: "";
+    position: absolute;
+    margin-left: 28px;
+}
